@@ -1,4 +1,7 @@
-# Getting Started
+# Introduction 
+TODO: simple structure using the same file variables and locations to group values
+
+## Getting Started
 
 1. run 
 ```bash

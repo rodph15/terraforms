@@ -1,4 +1,7 @@
-# Getting Started
+# Introduction 
+TODO: example using tfvars files, variables files and outputs
+
+## Getting Started
 
 1. run 
 ```bash
