@@ -8,6 +8,7 @@ TODO: simple structure using the same file variables and locations to group valu
 terraform plan
 ```
 to ensure whether everything is correct
+
 2. run 
 ```bash
 terraform apply 
