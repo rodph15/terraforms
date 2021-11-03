@@ -12,3 +12,16 @@ choco install -y  terraform
 ```
 
 Download the [azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli) ou install using power shell
+
+
+# Getting Started
+
+1. run the command to autanticate on azure using azure CLI
+```bash
+az login
+```
+2. inside each exercise run  
+```bash
+terraform init
+```
+to initialize the script with current version configured on main.tf

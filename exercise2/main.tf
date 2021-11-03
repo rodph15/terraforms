@@ -30,7 +30,7 @@ resource "azurerm_public_ip" "pip" {
 }
 
 resource "azurerm_app_service_plan" "plan" {
-  name                = "plan-app"
+  name                = "service-plan-${var.app_name}-${var.environment}"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   sku {
@@ -41,7 +41,7 @@ resource "azurerm_app_service_plan" "plan" {
 }
 
 resource "azurerm_app_service" "app" {
-  name                = "${var.app_name}-${var.environment}"
+  name                = "app-service-${var.app_name}-${var.environment}"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   app_service_plan_id = azurerm_app_service_plan.plan.id
