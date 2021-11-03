@@ -16,7 +16,7 @@ Download the [azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azur
 
 # Getting Started
 
-1. run the command to autanticate on azure using azure CLI
+1. run the command to authenticate on azure using azure CLI
 ```bash
 az login
 ```
