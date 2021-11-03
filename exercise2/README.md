@@ -8,6 +8,7 @@ TODO: example using tfvars files, variables files and outputs
 terraform plan
 ```
 to ensure whether everything is correct
+
 2. run 
 ```bash
 terraform apply 
