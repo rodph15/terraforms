@@ -4,7 +4,7 @@
 ```bash
 terraform plan
 ```
-to ensure whether everthing is correct
+to ensure whether everything is correct
 2. run 
 ```bash
 terraform apply 
