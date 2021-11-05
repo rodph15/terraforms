@@ -5,7 +5,7 @@ TODO: file manipulation, getting file and zipping
 
 1. run 
 ```bash
-terraform plan -out="app.tfplan"
+terraform plan
 ```
 to ensure that everything it is ok
 
